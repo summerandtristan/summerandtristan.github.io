@@ -259,11 +259,9 @@ Hero
   background-size: cover;
   position: relative;
 
-  /*.rsvp-btn {
-    position: absolute;
-    bottom: 100px;
-    left: 50%;
-  }*/
+  .rsvp-btn {
+    color: white;
+  }
   .down-arrow a {
     color: $txt-light;
   }
@@ -278,7 +276,7 @@ Hero
     margin-bottom: 80px;
   }
   .hero-content {
-    padding-top: 40%;
+    padding-top: 80%;
   }
   .hero-content img {
     width: 55%;
@@ -288,8 +286,10 @@ Hero
 .navigation {
   transition: all 300ms ease-in-out;
   position: fixed;
+  background-color: rgba(55, 36, 40, .88);
   width: 100%;
   z-index: 999;
+  
 }
 .fixed {
   position: fixed;
@@ -321,7 +321,6 @@ header {
     height: 19px;
   }
   ul.primary-nav {
-    margin: 0 0 0 75px;
     padding: 0;
 
     li {
@@ -402,8 +401,8 @@ Intro
 #intro {
   padding-top: 40px;
   img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 230px;
   }
 }
 #intro p {
@@ -789,6 +788,10 @@ RSVP form
 ========================================================================== */
 .rsvp {
   padding-bottom: 140px;
+  .rsvp-msg {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
   .rsvp-form {
     .rsvp-btn {
       padding: 15px 0;
