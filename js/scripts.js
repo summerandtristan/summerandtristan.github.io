@@ -194,7 +194,7 @@ $(document).ready(function () {
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('May 27, 2017 2:00'),
+            end: new Date('May 27, 2019 2:00'),
 
             // Event Address
             address: 'Under the Sun, 627 South Broadway Street, Boulder, CO 80305',
