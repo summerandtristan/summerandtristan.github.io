@@ -787,6 +787,9 @@ Google map
 RSVP form
 ========================================================================== */
 .rsvp {
+  @media screen and (max-width: 991px) {
+    margin-top: 100px !important;
+  }
   padding-bottom: 140px;
   .rsvp-msg {
     padding-bottom: 0;
